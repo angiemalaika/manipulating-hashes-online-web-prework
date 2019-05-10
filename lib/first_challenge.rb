@@ -1,3 +1,4 @@
+require 'pry'
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -21,6 +22,7 @@ contacts["Freddy Mercury"].each do |attribute, value|
       end
     end
   end
+  binding.pry
   #remember to return your newly altered contacts hash!
   contacts
 end
